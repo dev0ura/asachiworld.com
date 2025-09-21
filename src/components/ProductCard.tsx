@@ -13,12 +13,13 @@ interface Product {
 interface ProductCardProps {
     product: Product;
     currentImageIndex: Record<number, number>;
+    inStock: boolean;
     setCurrentImageIndex: React.Dispatch<React.SetStateAction<Record<number, number>>>;
     nextImage: (productId: number) => void;
     prevImage: (productId: number) => void;
 }
 
-function ProductCard({ product, currentImageIndex, setCurrentImageIndex, nextImage, prevImage }: ProductCardProps) {
+function ProductCard({ product, currentImageIndex, inStock,setCurrentImageIndex, nextImage, prevImage }: ProductCardProps) {
     return (
         <div key={product.id} className="group flex flex-col h-full">
             <div className="relative rounded-lg overflow-hidden bg-gray-100" style={{ aspectRatio: '16/9' }}>
@@ -79,7 +80,7 @@ function ProductCard({ product, currentImageIndex, setCurrentImageIndex, nextIma
                     rel="noopener noreferrer"
                     className="block w-full bg-[#1B4D3E] text-white px-6 py-3 rounded-md hover:bg-[#163c30] transition-colors text-center"
                 >
-                    Learn More
+                    {inStock ? 'Buy Now' : 'Pre Order'}
                 </a>
             </div>
         </div>

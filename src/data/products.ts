@@ -5,6 +5,7 @@ export interface Product {
     price: string;
     features: string[];
     images: string[];
+    inStock: boolean;
 }
 
 const products: Product[] = [
@@ -12,8 +13,9 @@ const products: Product[] = [
         id: 1,
         name: 'Asachi x3',
         description: 'Professional-grade triple burner for precise cooking',
-        price: "10,000",
+        price: "12,000",
         features: ['Triple burner system', 'Premium stainless steel', 'Smart heat distribution'],
+        inStock: true,
         images: [
             '/images/three-burner-1.jpeg',
             '/images/three-burner.jpeg',
@@ -25,8 +27,9 @@ const products: Product[] = [
         id: 2,
         name: 'Asachi x4',
         description: 'Premium four-burner gas stove with precision control',
-        price: "12,000",
+        price: "",
         features: ['Professional grade', 'Compact design', 'Maximum efficiency'],
+        inStock: false,
         images: [
             '/images/four-burner.jpeg',
             '/images/single-burner.jpeg',
@@ -36,10 +39,11 @@ const products: Product[] = [
     },
     {
         id: 3,
-        name: 'Asachi x1',
+        name: '',
         description: 'Premium single-burner gas stove with precision control',
-        price: "4,500",
+        price: "",
         features: ['Professional grade', 'Compact design', 'Maximum efficiency'],
+        inStock: false,
         images: [
             '/images/single-burner.jpeg',
             '/images/gas-inlet.jpeg',

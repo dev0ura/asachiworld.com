@@ -159,6 +159,7 @@ function App() {
                 setCurrentImageIndex={setCurrentImageIndex}
                 nextImage={nextImage}
                 prevImage={prevImage}
+                inStock={product.inStock}
               />
             ))}
           </div>
