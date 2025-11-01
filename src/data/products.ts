@@ -32,14 +32,13 @@ const products: Product[] = [
         inStock: false,
         images: [
             '/images/four-burner.jpeg',
-            '/images/single-burner.jpeg',
             '/images/gas-inlet.jpeg',
             '/images/rubber-stand.jpeg'
         ],
     },
     {
         id: 3,
-        name: '',
+        name: 'Asachi x1',
         description: 'Premium single-burner gas stove with precision control',
         price: "",
         features: ['Professional grade', 'Compact design', 'Maximum efficiency'],

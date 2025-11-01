@@ -1,4 +1,4 @@
-import { ChevronRight, Flame, Menu, MessageCircle, Shield, Star, X, Zap } from 'lucide-react';
+import { Flame, Menu, MessageCircle, Shield, Star, X, Zap } from 'lucide-react';
 import { useState } from 'react';
 import ProductCard from './components/ProductCard';
 import products from './data/products.ts';
@@ -67,7 +67,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-24 pb-12 sm:pt-32 sm:pb-16 lg:pt-40 lg:pb-24">
+      <section className="relative pt-24 pb-12 sm:pt-32 sm:pb-16 lg:pt-40 lg:pb-24 min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh]">
         <div className="absolute inset-0 z-0">
           <img 
             src="/images/landing-img.webp" 
@@ -87,7 +87,7 @@ function App() {
               Experience the perfect blend of power, precision, and elegance with Asachi's premium cooking stoves.
             </p>
             
-            <div className="mt-24 sm:mt-30 lg:mt-38 flex justify-center gap-4">
+            {/* <div className="mt-24 sm:mt-30 lg:mt-38 flex justify-center gap-4">
               <a 
                 href="https://wa.me/+919495030107?text=Hello, I'm interested in Asachi products" 
                 target="_blank"
@@ -100,7 +100,7 @@ function App() {
               <a href="#features" className="inline-flex items-center px-6 py-3 border border-white text-base font-medium rounded-md text-white bg-transparent hover:bg-white/10">
                 Learn More
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

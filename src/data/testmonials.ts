@@ -9,16 +9,9 @@ export interface Testimonial {
 const testimonials: Testimonial[] = [
     {
         id: 1,
-        name: 'Chef Michael Roberts',
-        role: 'Executive Chef',
-        content: 'The precision and power of Asachi stoves have revolutionized my kitchen. The heat distribution is unmatched.',
-        rating: 5
-    },
-    {
-        id: 2,
-        name: 'Sarah Chen',
-        role: 'Home Chef',
-        content: 'Finally found a stove that combines beautiful design with professional performance. Worth every penny!',
+        name: 'Anonymous Buyer',
+        role: 'Housewife',
+        content: 'The stove looks nice and shiny, and it makes the room brighter. The design seems safe and easy to use. The cleaning tray makes it simple to remove dirt.',
         rating: 5
     }
 ];
