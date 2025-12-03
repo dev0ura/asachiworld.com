@@ -78,7 +78,7 @@ function ProductCard({ product, currentImageIndex, inStock,setCurrentImageIndex,
                     href={`https://wa.me/1234567890?text=Hello, I'm interested in purchasing the ${product.name} for ${product.price}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block w-full bg-[#1B4D3E] text-white px-6 py-3 rounded-md hover:bg-[#163c30] transition-colors text-center"
+                    className="block w-full bg-[#F54927] text-white px-6 py-3 rounded-md hover:bg-[#DC3219] transition-colors text-center"
                 >
                     {inStock ? 'Buy Now' : 'Pre Order'}
                 </a>
