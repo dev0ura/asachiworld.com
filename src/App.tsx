@@ -70,7 +70,7 @@ function App() {
       <section className="relative pt-24 pb-12 sm:pt-32 sm:pb-16 lg:pt-40 lg:pb-24 min-h-[60vh] sm:min-h-[70vh] lg:min-h-[80vh]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/landing-img.webp" 
+            src="/images/heroblack.webp" 
             alt="Luxury Kitchen"
             className="absolute inset-0 w-full h-full object-cover z-10"
           />
@@ -80,11 +80,11 @@ function App() {
         <div className="relative z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center pt-0 sm:pt-0 lg:pt-0 pb-10 sm:pb-14 lg:pb-18">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight">
-              Precision Engineered for
-              <span className="block text-[#FF6B4A] mt-2">Culinary Excellence</span>
+              Safety and WellBeing before Everything.
+              <span className="block text-[#FF6B4A] mt-2">ㅤ</span>
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-gray-100 max-w-3xl mx-auto">
-              Experience the perfect blend of power, precision, and elegance with Asachi's premium cooking stoves.
+           Products built to protect your home and work the way they should -- every day
             </p>
             
             {/* <div className="mt-24 sm:mt-30 lg:mt-38 flex justify-center gap-4">
@@ -104,6 +104,29 @@ function App() {
           </div>
         </div>
       </section>
+
+        {/* Products Section */}
+        <section id="products" className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-gray-900 text-center">Our Premium Collection</h2>
+          
+          <div className="mt-16 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:gap-x-8">
+            {products.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                currentImageIndex={currentImageIndex}
+                setCurrentImageIndex={setCurrentImageIndex}
+                nextImage={nextImage}
+                prevImage={prevImage}
+                inStock={product.inStock}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      
 
       {/* Features Section */}
       <section id="features" className="py-16 bg-gray-50">
@@ -145,26 +168,7 @@ function App() {
         </div>
       </section>
 
-      {/* Products Section */}
-      <section id="products" className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-gray-900 text-center">Our Premium Collection</h2>
-          
-          <div className="mt-16 grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:gap-x-8">
-            {products.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                currentImageIndex={currentImageIndex}
-                setCurrentImageIndex={setCurrentImageIndex}
-                nextImage={nextImage}
-                prevImage={prevImage}
-                inStock={product.inStock}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+    
 
       {/* Testimonials Section */}
       <section id="testimonials" className="py-16 bg-gray-50">
