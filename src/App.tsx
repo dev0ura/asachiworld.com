@@ -37,7 +37,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-gray-900">ASACHI</span>
+              <img src="/images/asachilogo.png" alt="ASACHI" className="h-8 object-contain" />
             </div>
             
             <div className="hidden md:flex space-x-8">
@@ -80,7 +80,7 @@ function App() {
         <div className="relative z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center pt-0 sm:pt-0 lg:pt-0 pb-10 sm:pb-14 lg:pb-18">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight">
-              Safety and WellBeing before Everything.
+            The VISION that stands for your SAFETY
               <span className="block text-[#FF6B4A] mt-2">ㅤ</span>
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-gray-100 max-w-3xl mx-auto">
