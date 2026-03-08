@@ -81,7 +81,7 @@ function App() {
           <div className="text-center pt-0 sm:pt-0 lg:pt-0 pb-10 sm:pb-14 lg:pb-18">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight">
             The VISION that stands for your SAFETY
-              <span className="block text-[#FF6B4A] mt-2">ㅤ</span>
+              <span className="block text-[#004AAD] mt-2">ㅤ</span>
             </h1>
             <p className="mt-4 text-lg sm:text-xl text-gray-100 max-w-3xl mx-auto">
            Products built to protect your home and work the way they should -- every day
@@ -92,7 +92,7 @@ function App() {
                 href="https://wa.me/+919495030107?text=Hello, I'm interested in Asachi products" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#F54927] hover:bg-[#DC3219]"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#004AAD] hover:bg-[#003A8C]"
               >
                 Learn More
                 <ChevronRight className="ml-2 h-5 w-5" />
@@ -106,7 +106,7 @@ function App() {
       </section>
 
         {/* Products Section */}
-        <section id="products" className="py-16">
+      <section id="products" className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 text-center">Our Premium Collection</h2>
           
@@ -143,7 +143,7 @@ function App() {
           <div className="mt-6 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="relative p-6 bg-white rounded-xl shadow-sm">
               <div className="absolute top-6 right-6">
-                <Flame className="h-6 w-6 text-[#F54927]" />
+                <Flame className="h-6 w-6 text-[#004AAD]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Superior Heat Control</h3>
               <p className="mt-4 text-gray-600">Precise temperature regulation for perfect cooking results every time.</p>
@@ -151,7 +151,7 @@ function App() {
 
             <div className="relative p-6 bg-white rounded-xl shadow-sm">
               <div className="absolute top-6 right-6">
-                <Shield className="h-6 w-6 text-[#F54927]" />
+                <Shield className="h-6 w-6 text-[#004AAD]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Built to Last</h3>
               <p className="mt-4 text-gray-600">Premium materials and craftsmanship ensure years of reliable performance.</p>
@@ -159,7 +159,7 @@ function App() {
 
             <div className="relative p-6 bg-white rounded-xl shadow-sm">
               <div className="absolute top-6 right-6">
-                <Zap className="h-6 w-6 text-[#F54927]" />
+                <Zap className="h-6 w-6 text-[#004AAD]" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Energy Efficient</h3>
               <p className="mt-4 text-gray-600">Advanced technology for optimal fuel consumption and performance.</p>
@@ -208,7 +208,7 @@ function App() {
                 href="https://wa.me/+919495030107?text=Hello, I need assistance with Asachi products" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#F54927] hover:bg-[#DC3219]"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#004AAD] hover:bg-[#003A8C]"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Start Live Chat
