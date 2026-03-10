@@ -89,7 +89,7 @@ function App() {
             
             {/* <div className="mt-24 sm:mt-30 lg:mt-38 flex justify-center gap-4">
               <a 
-                href="https://wa.me/+919495030107?text=Hello, I'm interested in Asachi products" 
+                href="https://wa.me/9645445546?text=Hello, I'm interested in Asachi products" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#004AAD] hover:bg-[#003A8C]"
@@ -204,8 +204,8 @@ function App() {
             </p>
             
             <div className="mt-8 flex items-center justify-center">
-              <a 
-                href="https://wa.me/+919495030107?text=Hello, I need assistance with Asachi products" 
+            <a 
+                href="https://wa.me/9645445546?text=Hello, I need assistance with Asachi products" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#004AAD] hover:bg-[#003A8C]"
@@ -223,7 +223,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-bold">ASACHI</h3>
+              <img
+                src="/images/asachilogo.png"
+                alt="ASACHI"
+                className="h-8 object-contain"
+              />
               <p className="mt-4 text-gray-400">Crafting premium cooking experiences since 2010.</p>
             </div>
             <div>

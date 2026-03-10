@@ -74,8 +74,8 @@ function ProductCard({ product, currentImageIndex, inStock,setCurrentImageIndex,
                 <p className="text-xl font-bold text-gray-900">₹{product.price}</p>
             </div>
             <div className="mt-auto pt-4">
-                <a 
-                    href={`https://wa.me/1234567890?text=Hello, I'm interested in purchasing the ${product.name} for ${product.price}`}
+            <a 
+                    href={`https://wa.me/9645445546?text=Hello, I'm interested in purchasing the ${product.name} for ${product.price}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-[#004AAD] text-white px-6 py-3 rounded-md hover:bg-[#003A8C] transition-colors text-center"
