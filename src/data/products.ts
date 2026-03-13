@@ -13,7 +13,7 @@ const products: Product[] = [
         id: 1,
         name: 'Asachi x3',
         description: 'Professional-grade triple burner for precise cooking',
-        price: "12,000",
+        price: "12,500",
         features: ['Triple burner system', 'Premium stainless steel', 'Smart heat distribution'],
         inStock: true,
         images: [
